@@ -6,8 +6,8 @@ import java.util.Scanner;
  * The text typed by a user is then chopped into words, and a set of words 
  * is provided.
  * 
- * @author David J. Barnes and Michael Kölling.
- * @version 2016.02.29
+ * @author Arif Reyhan
+ * @version 11/25/2023
  */
 public class InputReader
 {
@@ -36,7 +36,7 @@ public class InputReader
         String[] wordArray = inputLine.split(" ");  // split at spaces
 
         // add words from array into hashset 
-        HashSet<String> words = new HashSet<>();
+        HashSet<String> words = new HashSet<String>();
         for(String word : wordArray) {
             words.add(word);
         }
